@@ -15,21 +15,21 @@ const config: Config = {
         heading: ["var(--font-heading)", ...fontFamily.sans],
       },
       colors: {
-        // --- MODERN TECH VIOLET PALETTE ---
-        // 'brand' - Electric Violet/Indigo
+        // --- MODERN TECH RED PALETTE ---
+        // 'brand' - Deep Red
         brand: {
-          '25': '#f5f3ff', // Lightest violet
-          '50': '#ede9fe', // Very light violet
-          '100': '#ddd6fe', // Light violet
-          '200': '#c4b5fd', // Soft violet
-          '300': '#a78bfa', // Bright violet
-          '400': '#8b5cf6', // Vivid violet
-          '500': '#7c3aed', // Primary violet
-          '600': '#6d28d9', // Deep violet
-          '700': '#5b21b6', // Darker violet
-          '800': '#4c1d95', // Very dark violet
-          '900': '#2e1065', // Deepest violet
-          '950': '#170b3b'  // Almost black violet
+          '25': '#fff5f5', // Lightest red
+          '50': '#ffe3e3', // Very light red
+          '100': '#ffbdbd', // Light red
+          '200': '#ff9b9b', // Soft red
+          '300': '#f86a6a', // Bright red
+          '400': '#ef4e4e', // Vivid red
+          '500': '#e03131', // Primary red
+          '600': '#c92a2a', // Deep red
+          '700': '#b02525', // Darker red
+          '800': '#962020', // Very dark red
+          '900': '#7d1a1a', // Deepest red
+          '950': '#4a0f0f'  // Almost black red
         },
 
         // Modern Discord-inspired dark theme
@@ -54,28 +54,28 @@ const config: Config = {
           foreground: 'hsl(var(--popover-foreground))'
         },
         primary: {
-          DEFAULT: 'hsl(263 85% 58%)', // Brand-500 equivalent
+          DEFAULT: 'hsl(350 85% 50%)', // Brand-500 red equivalent
           foreground: 'hsl(0 0% 100%)' // Crisp white text
         },
         secondary: {
-          DEFAULT: 'hsl(260 20% 96%)', // Ultra-light violet-gray
-          foreground: 'hsl(260 20% 20%)' // Deep violet-gray text
+          DEFAULT: 'hsl(0 0% 96%)', // Ultra-light red-gray
+          foreground: 'hsl(0 0% 20%)' // Deep red-gray text
         },
         muted: {
-          DEFAULT: 'hsl(260 20% 96%)', // Whisper-light violet-white
-          foreground: 'hsl(260 10% 50%)' // Balanced gray for muted content
+          DEFAULT: 'hsl(0 0% 96%)', // Whisper-light red-white
+          foreground: 'hsl(0 0% 50%)' // Balanced gray for muted content
         },
         accent: {
-          DEFAULT: 'hsl(263 85% 58%)', // Electric violet - modern and eye-catching
-          foreground: 'hsl(0 0% 100%)' // Clean white on violet
+          DEFAULT: 'hsl(350 85% 50%)', // Deep red - modern and eye-catching
+          foreground: 'hsl(0 0% 100%)' // Clean white on red
         },
         destructive: {
           DEFAULT: 'hsl(0 84% 60%)', // Vibrant red for alerts
           foreground: 'hsl(0 0% 100%)' // White text on red
         },
-        border: 'hsl(260 15% 90%)', // Soft violet-gray border
-        input: 'hsl(260 15% 90%)', // Matching input borders
-        ring: 'hsl(263 85% 58%)', // Focus ring matches primary
+        border: 'hsl(0 0% 90%)', // Soft red-gray border
+        input: 'hsl(0 0% 90%)', // Matching input borders
+        ring: 'hsl(350 85% 50%)', // Focus ring matches primary
 
         // Success and warning colors for better UX
         success: {
@@ -89,7 +89,7 @@ const config: Config = {
 
         // Enhanced chart colors for data visualization
         chart: {
-          '1': 'hsl(263 85% 58%)',  // Primary violet
+          '1': 'hsl(350 85% 50%)',  // Primary red
           '2': 'hsl(192 90% 45%)',  // Cyan for contrast
           '3': 'hsl(330 80% 55%)',  // Pink
           '4': 'hsl(45 93% 47%)',   // Warm amber
@@ -101,7 +101,7 @@ const config: Config = {
 
         // Gradient stops for modern effects
         gradient: {
-          'aurora-start': 'hsl(263 85% 58%)',
+          'aurora-start': 'hsl(350 85% 50%)',
           'aurora-middle': 'hsl(330 80% 55%)',
           'aurora-end': 'hsl(192 90% 45%)',
         }

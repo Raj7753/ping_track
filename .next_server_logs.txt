@@ -1,0 +1,94 @@
+
+> pingalert@0.1.0 dev /Users/rajsrivastva/Downloads/PingAlert-main
+> next dev
+
+  ▲ Next.js 14.2.21
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+Error: ENOENT: no such file or directory, scandir '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+    at async Object.readdir (node:internal/fs/promises:954:18)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+}
+ ⨯ unhandledRejection: Error: ENOENT: no such file or directory, scandir '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+    at async Object.readdir (node:internal/fs/promises:954:18)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+}
+ ⨯ unhandledRejection: Error: ENOENT: no such file or directory, scandir '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+    at async Object.readdir (node:internal/fs/promises:954:18)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+}
+Error: ENOENT: no such file or directory, scandir '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+    at async Object.readdir (node:internal/fs/promises:954:18)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+}
+ ⨯ unhandledRejection: Error: ENOENT: no such file or directory, scandir '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+    at async Object.readdir (node:internal/fs/promises:954:18)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+}
+ ⨯ unhandledRejection: Error: ENOENT: no such file or directory, scandir '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+    at async Object.readdir (node:internal/fs/promises:954:18)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:39:29
+    at async Promise.all (index 0)
+    at async recursiveReadDir (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/lib/recursive-readdir.js:32:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:71:25
+    at async Promise.all (index 0)
+    at async BatchedFileReader.load (/Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:67:25)
+    at async /Users/rajsrivastva/Downloads/PingAlert-main/node_modules/.pnpm/next@14.2.21_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader/batched-file-reader.js:41:26 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/rajsrivastva/Downloads/PingAlert-main/src/app'
+}

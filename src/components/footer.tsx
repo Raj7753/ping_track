@@ -36,7 +36,7 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between gap-8">
           <div className="lg:w-1/3">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-brand-600">PingTrack</span>
+              <span className="text-2xl font-bold text-brand-600">PingAlert</span>
             </Link>
             <p className="mt-4 text-sm text-gray-600 dark:text-zinc-400">
               Real-Time SaaS Insights, Delivered to Your Discord
@@ -78,7 +78,7 @@ export default function Footer() {
         <div className="mt-12 border-t border-gray-200 pt-8 dark:border-gray-700">
           <div className="flex flex-col-reverse justify-between gap-4 sm:flex-row sm:items-center">
             <p className="text-sm text-gray-600 dark:text-zinc-300">
-              &copy; {new Date().getFullYear()} PingTrack. All rights reserved.
+              &copy; {new Date().getFullYear()} PingAlert. All rights reserved.
             </p>
             <div className="flex space-x-6">
               {socialLinks.map((item) => (

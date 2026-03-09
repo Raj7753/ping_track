@@ -1,21 +1,16 @@
-import { Pool } from "@neondatabase/serverless"
-import { PrismaNeon } from "@prisma/adapter-neon"
 import { PrismaClient } from "@prisma/client"
 
 declare global {
-  var cachedPrisma: PrismaClient
+  var cachedPrisma: PrismaClient | undefined
 }
 
 let prisma: PrismaClient
 if (process.env.NODE_ENV === "production") {
-  const pool = new Pool({ connectionString: process.env.DATABASE_URL })
-  const adapter = new PrismaNeon(pool)
-  prisma = new PrismaClient({ adapter })
+  // Production will use Vercel/Cloudflare env vars and standard adapters
+  prisma = new PrismaClient()
 } else {
   if (!global.cachedPrisma) {
-    const pool = new Pool({ connectionString: process.env.DATABASE_URL })
-    const adapter = new PrismaNeon(pool)
-    global.cachedPrisma = new PrismaClient({ adapter })
+    global.cachedPrisma = new PrismaClient()
   }
   prisma = global.cachedPrisma
 }

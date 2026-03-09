@@ -43,7 +43,7 @@ export default async function Home() {
                 </span>
               </Heading>
             </div>
-            <p className="text-base/7 text-gray-600 max-w-prose text-center text-pretty dark:text-zinc-400">PingPanda is the easiest way to monitor your SaaS. Get instance notifications for{" "}
+            <p className="text-base/7 text-gray-600 max-w-prose text-center text-pretty dark:text-zinc-400">PingAlert is the easiest way to monitor your SaaS. Get instance notifications for{" "}
               <span className="font-semibold text-gray-700 dark:text-zinc-300">sales, new users, or any other event{" "}
               </span>sent directly to your discord
             </p>
@@ -78,8 +78,8 @@ export default async function Home() {
                 <AnimatedList>
                   <DiscordMessage
                     avatarSrc="/brand-asset-profile-picture.png"
-                    avatarAlt="PingPanda Avatar"
-                    username="PingPanda"
+                    avatarAlt="PingAlert Avatar"
+                    username="PingAlert"
                     timestamp="Today at 12:35PM"
                     badgeText="SignUp"
                     badgeColor="#43b581"
@@ -91,8 +91,8 @@ export default async function Home() {
                   />
                   <DiscordMessage
                     avatarSrc="/brand-asset-profile-picture.png"
-                    avatarAlt="PingPanda Avatar"
-                    username="PingPanda"
+                    avatarAlt="PingAlert Avatar"
+                    username="PingAlert"
                     timestamp="Today at 12:35PM"
                     badgeText="Revenue"
                     badgeColor="#faa61a"
@@ -105,8 +105,8 @@ export default async function Home() {
                   />
                   <DiscordMessage
                     avatarSrc="/brand-asset-profile-picture.png"
-                    avatarAlt="PingPanda Avatar"
-                    username="PingPanda"
+                    avatarAlt="PingAlert Avatar"
+                    username="PingAlert"
                     timestamp="Today at 5:11AM"
                     badgeText="Milestone"
                     badgeColor="#5865f2"
@@ -172,7 +172,7 @@ export default async function Home() {
                     Track Any Event
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    From new user signups to successful payments, PingPanda notifies you for all critical events in your SaaS.
+                    From new user signups to successful payments, PingAlert notifies you for all critical events in your SaaS.
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
@@ -227,7 +227,7 @@ export default async function Home() {
                     Easy Integration
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Connect PingPanda with your existing workflows in minutes
+                    Connect PingAlert with your existing workflows in minutes
                     and call our intuitive logging API from any language.
                   </p>
                 </div>
@@ -237,7 +237,7 @@ export default async function Home() {
                     <div className="flex bg-gray-800/40 ring-1 ring-white/5">
                       <div className="-mb-px flex text-sm/6 font-medium text-gray-400">
                         <div className="border-b border-r border-b-white/20 border-r-white/10 bg-white/5 px-4 py-2 text-white">
-                          pingpanda.js
+                          pingalert.js
                         </div>
                       </div>
                     </div>
@@ -294,7 +294,7 @@ export default async function Home() {
               </div>
 
               <p className="text-base sm:text-lg lg:text-lg/8 font-medium tracking-tight text-brand-950 text-center lg:text-left text-pretty">
-                PingPanda has been a game-changer for me. I've been using it for
+                PingAlert has been a game-changer for me. I've been using it for
                 two months now and seeing sales pop up in real-time is super
                 satisfying.
               </p>
@@ -328,7 +328,7 @@ export default async function Home() {
               </div>
 
               <p className="text-base sm:text-lg lg:text-lg/8 font-medium tracking-tight text-brand-950 text-center lg:text-left text-pretty">
-                PingPanda's been paying off for our SaaS. Nice to have simple
+                PingAlert's been paying off for our SaaS. Nice to have simple
                 way to see how we're doing day-to-day. Definitely makes our
                 lives easier.
               </p>

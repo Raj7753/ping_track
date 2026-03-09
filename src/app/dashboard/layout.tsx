@@ -45,7 +45,7 @@ const Logos = () => {
   return (
     <Link href="/" className="flex z-40 font-semibold">
       <p className="hidden sm:block text-lg/7 font-semibold text-brand-900 dark:text-zinc-300">
-        Ping<span className="text-brand-700 dark:text-brand-600">Panda</span>
+        Ping<span className="text-brand-700 dark:text-brand-600">Alert</span>
       </p>
     </Link>
   )
