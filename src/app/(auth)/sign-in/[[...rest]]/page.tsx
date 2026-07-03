@@ -1,12 +1,29 @@
 "use client"
 
-import { SignIn } from "@clerk/nextjs"
-import { useSearchParams } from "next/navigation"
-import { Suspense } from "react"
+import { SignIn, useAuth } from "@clerk/nextjs"
+import { useSearchParams, useRouter } from "next/navigation"
+import { Suspense, useEffect } from "react"
 
 const SignInContent = () => {
   const searchParams = useSearchParams()
   const intent = searchParams.get("intent")
+  const { isSignedIn } = useAuth()
+  const router = useRouter()
+
+  // If already signed in, redirect to dashboard immediately
+  useEffect(() => {
+    if (isSignedIn) {
+      router.replace(intent ? `/dashboard?intent=${intent}` : "/dashboard")
+    }
+  }, [isSignedIn, intent, router])
+
+  if (isSignedIn) {
+    return (
+      <div className="w-full flex-1 flex items-center justify-center">
+        <div className="text-gray-400">Redirecting to dashboard...</div>
+      </div>
+    )
+  }
 
   return (
     <div className="w-full flex-1 flex items-center justify-center">
