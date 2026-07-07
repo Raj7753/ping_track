@@ -28,6 +28,8 @@ const SignInContent = () => {
   return (
     <div className="w-full flex-1 flex items-center justify-center">
       <SignIn
+        routing="path"
+        path="/sign-in"
         forceRedirectUrl={intent ? `/dashboard?intent=${intent}` : "/dashboard"}
       />
     </div>

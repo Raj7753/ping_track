@@ -1,10 +1,10 @@
-import ws from "ws"
 import { neonConfig, Pool } from "@neondatabase/serverless"
 import { PrismaNeon } from "@prisma/adapter-neon"
 import { PrismaClient } from "@prisma/client"
 
-// Required for Vercel serverless Node.js runtime (no native WebSocket in Node.js 18)
-neonConfig.webSocketConstructor = ws
+if (process.env.NODE_ENV === "production" && typeof WebSocket === "undefined") {
+  neonConfig.webSocketConstructor = require("ws")
+}
 
 declare global {
   var cachedPrisma: PrismaClient
@@ -17,9 +17,7 @@ if (process.env.NODE_ENV === "production") {
   prisma = new PrismaClient({ adapter })
 } else {
   if (!global.cachedPrisma) {
-    const pool = new Pool({ connectionString: process.env.DATABASE_URL })
-    const adapter = new PrismaNeon(pool)
-    global.cachedPrisma = new PrismaClient({ adapter })
+    global.cachedPrisma = new PrismaClient()
   }
   prisma = global.cachedPrisma
 }
